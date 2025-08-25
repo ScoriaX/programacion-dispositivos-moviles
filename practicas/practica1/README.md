@@ -1,17 +1,16 @@
 # Práctica 1: Introducción a Kotlin 🚀
 
 ## 📖 Descripción
-En esta práctica se realiza una introducción al lenguaje **Kotlin**, abordando sintaxis básica, variables, estructuras de control y funciones.  
-La práctica consta de **4 ejercicios**, cada uno implementado en un archivo diferente.
+En esta práctica se realiza una introducción al lenguaje **Kotlin**, realizando cuatro ejercicios en donde se **imprimen y leen datos**, se **generan números aleatorios** y se implementan **diferentes menús** de interacción con el usuario. 
 
 ---
 
 ## 📚 Ejercicios
 
-1. **[Ejercicio 1](./ex1_evaluacion_empleados.kt):**  Evaluación Empleados.  
-2. **[Ejercicio 2](./ex2_piedra,papel,tijera.kt):**  Piedra, Papel, Tijera.  
-3. **[Ejercicio 3](./ex3_calculadora_elemental.kt):**  Calculadora Elemental.  
-4. **[Ejercicio 4](./ex4_adivina_el_numero.kt):**  Adivina Número.  
+- **[Ejercicio 1: Evaluación Empleados.](./ex1_evaluacion_empleados.kt)**
+- **[Ejercicio 2: Piedra, Papel, Tijera.](./ex2_piedra,papel,tijera.kt)**
+- **[Ejercicio 3: Calculadora Elemental.](./ex3_calculadora_elemental.kt)**  
+- **[Ejercicio 4: Adivina Número.](./ex4_adivina_el_numero.kt)**  
 
 ---
 
