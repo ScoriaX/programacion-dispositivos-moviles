@@ -6,7 +6,7 @@ Este directorio contiene las prácticas desarrolladas durante el curso **Program
 
 ## 📚 Índice de prácticas
 
-1. **Práctica 1:** Introducción a Kotlin (./practica1/)
+1. [Práctica 1: Introducción a Kotlin](./practica1/)
 
 *(Se irá actualizando conforme avance el curso)*
 
