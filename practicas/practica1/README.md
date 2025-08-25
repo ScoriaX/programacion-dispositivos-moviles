@@ -6,10 +6,6 @@ La práctica consta de **4 ejercicios**, cada uno implementado en un archivo dif
 
 ---
 
-## 📂 Estructura de la práctica
-
----
-
 ## 📚 Ejercicios
 
 1. **[Ejercicio 1](./ex1_evaluacion_empleados.kt):** Declaración y uso de variables en Kotlin.  
