@@ -6,7 +6,7 @@ Aquí se encuentran las prácticas, ejercicios y proyectos desarrollados durante
 ---
 
 ## 📂 Estructura del repositorio
-- `practicas/` → Ejercicios y prácticas semanales.
+- [practicas/](./practicas/) → Ejercicios y prácticas semanales.
 - `proyectos/` → Proyectos más completos o integradores.
 - `recursos/` → Material complementario (apuntes, ejemplos, documentación).
 
