@@ -3,7 +3,7 @@
 // el usuario, despues de leer su puntuacion y salario mensual
 // Autor: Piero Fabricio Poblete Andía
 // Fecha Creacion: 23/08/25
-// Fecha Ult. Modificacion: 23/08/25
+// Fecha Ult. Modificacion: 24/08/25
 
 fun calcRend(num: Int) : String{ // funcion que devuelve a que nivel pertenece el usuario a partir de su puntuacion
     return when{
