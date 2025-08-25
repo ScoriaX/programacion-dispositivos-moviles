@@ -1,2 +1,39 @@
-# programacion-dispositivos-moviles
-Repositorio de prácticas y proyectos correspondientes al curso de Programación para Dispositivos Móviles. Incluye ejemplos, ejercicios y soluciones implementadas durante el ciclo académico.
+# Programación para Dispositivos Móviles 📱
+
+Repositorio académico para la asignatura **Programación para Dispositivos Móviles**.  
+Aquí se encuentran las prácticas, ejercicios y proyectos desarrollados durante el curso, enfocados en el aprendizaje y aplicación de técnicas de desarrollo móvil.
+
+---
+
+## 📂 Estructura del repositorio
+- `practicas/` → Ejercicios y prácticas semanales.
+- `proyectos/` → Proyectos más completos o integradores.
+- `recursos/` → Material complementario (apuntes, ejemplos, documentación).
+
+---
+
+## 🚀 Contenido
+- Desarrollo de aplicaciones móviles.
+- Uso de entornos de desarrollo y emuladores.
+- Programación en lenguajes/plataformas móviles.
+- Ejercicios prácticos y proyectos integradores.
+
+---
+
+## 🛠️ Requisitos
+- [Android Studio](https://developer.android.com/studio) o entorno indicado en clase.
+- Java/Kotlin (según se utilice en el curso).
+- Dispositivo/emulador para pruebas.
+
+---
+
+## 📌 Notas
+Este repositorio es de uso académico y contiene únicamente las prácticas del curso.  
+No está destinado a producción ni distribución de aplicaciones finales.
+
+---
+
+## 👨‍💻 Autor
+**Piero Fabricio Poblete Andía**  
+Estudiante de [Universidad La Salle Arequipa]  
+Curso: Programación para Dispositivos Móviles
