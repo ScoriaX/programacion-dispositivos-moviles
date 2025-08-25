@@ -21,9 +21,7 @@ Aquí se encuentran las prácticas, ejercicios y proyectos desarrollados durante
 ---
 
 ## 🛠️ Requisitos
-- [Android Studio](https://developer.android.com/studio) o entorno indicado en clase.
-- Java/Kotlin (según se utilice en el curso).
-- Dispositivo/emulador para pruebas.
+- Kotlin
 
 ---
 
