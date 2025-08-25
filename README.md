@@ -33,5 +33,5 @@ No está destinado a producción ni distribución de aplicaciones finales.
 
 ## 👨‍💻 Autor
 **Piero Fabricio Poblete Andía**  
-Estudiante de [Universidad La Salle Arequipa]  
+Estudiante de Universidad La Salle Arequipa
 Curso: Programación para Dispositivos Móviles
