@@ -7,10 +7,10 @@ En esta práctica se realiza una introducción a la Programación Orientada a Ob
 
 ## Ejercicios
 
-- **[Ejercicio 1: Evaluación Empleados.](./ex1_evaluacion_empleados.kt)**
-- **[Ejercicio 2: Piedra, Papel, Tijera.](./ex2_piedra,papel,tijera.kt)**
-- **[Ejercicio 3: Calculadora Elemental.](./ex3_calculadora_elemental.kt)**  
-- **[Ejercicio 4: Adivina Número.](./ex4_adivina_el_numero.kt)**  
+- **[Ejercicio 1: Clase para Cuenta Bancaria.](./ex1_cuenta_bancaria.kt)**
+- **[Ejercicio 2: Clase para Producto.](./ex2_producto.kt)**
+- **[Ejercicio 3: Figuras.](./ex3_figuras.kt)**  
+- **[Ejercicio 4: Sisteam de Gestión de Biblioteca.](./ex4_gestion_biblioteca.kt)**  
 
 ---
 
