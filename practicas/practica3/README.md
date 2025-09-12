@@ -12,6 +12,8 @@ En esta práctica se realiza dos ejercicios donde se crean aplicaciones basicas 
 ---
 
 Autor: Piero Fabricio Poblete Andía
+
 Fecha Creación: 9:50 am 12/09/2025
+
 Fecha Última Modificación: 11:30 am 12/09/2025
 
