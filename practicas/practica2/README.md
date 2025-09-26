@@ -1,4 +1,4 @@
-# Práctica 1: Programación Orientada a Objetos Kotlin
+# Práctica 2: Programación Orientada a Objetos Kotlin
 
 ## Descripción
 En esta práctica se realiza una introducción a la Programación Orientada a Objetos en **Kotlin**, realizando cuatro ejercicios en donde se utilizan **constructores**, metodos **get y set** y se implementan **clases abstractas y interfaces**. 
