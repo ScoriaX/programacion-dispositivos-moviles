@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <CheckBox android:id="@+id/cbFrappe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Frappe"/>
+    <CheckBox android:id="@+id/cbCocoa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cocoa"/>
+    <CheckBox android:id="@+id/cbGalleta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Galleta"/>
+
+    <Button
+        android:id="@+id/btnSiguienteExtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

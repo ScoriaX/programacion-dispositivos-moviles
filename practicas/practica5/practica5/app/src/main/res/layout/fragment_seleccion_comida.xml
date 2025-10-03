@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RadioButton android:id="@+id/rbPieManzana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pie de Manzana"/>
+    <RadioButton android:id="@+id/rbAlfajor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alfajor"/>
+    <RadioButton android:id="@+id/rbEmpanada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Empanada"/>
+    <RadioButton android:id="@+id/rbPastel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pastel"/>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
