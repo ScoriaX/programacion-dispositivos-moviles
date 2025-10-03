@@ -1,7 +1,13 @@
-# Práctica 4: Ciclo de Vida de una Activity en Android
+# Práctica: CRecyclerView con Edición y Long Click
 
 ## Descripción
-En esta práctica se realiza una introducción a las diferentes etapas llamadas ciclo de vida, las cuales son manejadas por el sistema operativo. Y veremos como el ciclo de vida es esencial para crear aplicaciones eficientes y robustas.
+El RecyclerView es un componente avanzado que permite mostrar listas de datos de manera eficiente. Cada elemento se representa mediante un ViewHolder, y el Adapter se encarga de enlazar los datos con las vistas.
+
+En esta práctica aprenderás a:
+1. Detectar un long click en un elemento.
+2. Mostrar un menú de opciones (Editar o Eliminar).
+3. Abrir un diálogo personalizado para editar los datos de un usuario (nombre, edad, correo).
+4. Actualizar el RecyclerView con notifyItemChanged().
 
 ---
 
@@ -12,17 +18,16 @@ En esta práctica se realiza una introducción a las diferentes etapas llamadas 
 ---
 
 ## Preguntas de reflexión
-1. ¿Qué sucede si no usamos onSaveInstanceState? ¿Por qué se pierde el contador?
+1. ¿Qué diferencia hay entre notifyItemRemoved(), notifyItemInserted() y notifyItemChanged()?
 
-Sucede que la información que permanece solo en memoria se pierde si es que se destruye la actividad en la que esta. El contador se pierde ya que es información que vive solo en una instancia de MainActivity, la solución es guardarla utilizando un onSaveInstanceState.
+notifyItemRemoved() avisa que un elemento fue eliminado en esa posición. 
+notifyItemInserted() avisa que se ha agregado un nuevo elemento en esa posición.
+notifyItemChanged() avisa que un elemento ya existente fue modificado.
 
-2. ¿Por qué Android destruye y vuelve a crear la Activity al rotar la pantalla?
+2. ¿Por qué es necesario validar bindingAdapterPosition != RecyclerView.NO_POSITION?
 
-Porque al rotar la configuración de los recursos cambian, y para asegurarse de que se usen adecuadamente la aplicación destruye la activity y la crea de nuevo.
+Ya que la posición del item puede quedar desincronizada, y si no validamos que esta sincronizado la aplicación puede crashear.
 
-3. ¿En qué casos prácticos usarías onPause y onStop en una aplicación real?
+3. ¿Qué ventajas tiene usar un diálogo frente a abrir una nueva pantalla para editar?
 
-onPause:
-Cuando el usuario pausa un video, para detener procesos livianos.
-onStop:
-Cuando el usuario desea guardar cambios permanentes, o liberar recursos pesados.
+Es más rápido y sencillo, mejora la usabilidad ya que todo se hace en la misma ventana lo que hace que el usuario no pierda el contexto de la lista; puede editar y volver sin recargar.
