@@ -18,5 +18,5 @@ Este directorio contiene las prácticas desarrolladas durante el curso **Program
 
 ---
 
-## 🛠️ Cómo ejecutar
+## Cómo ejecutar
 Cada práctica contiene un archivo `README.md` con instrucciones específicas para su ejecución, en caso de que sea necesario.
