@@ -1,4 +1,4 @@
-# Práctica: CRecyclerView con Edición y Long Click
+# Práctica: RecyclerView con Edición y Long Click
 
 ## Descripción
 El RecyclerView es un componente avanzado que permite mostrar listas de datos de manera eficiente. Cada elemento se representa mediante un ViewHolder, y el Adapter se encarga de enlazar los datos con las vistas.
