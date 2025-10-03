@@ -1,16 +1,17 @@
-# Prácticas 📝
+# Prácticas
 
 Este directorio contiene las prácticas desarrolladas durante el curso **Programación para Dispositivos Móviles**.
 
 ---
 
-## 📚 Índice de prácticas
+## Índice de prácticas
 
 -  [Práctica 1: Introducción a Kotlin](./practica1/)
 -  [Práctica 2: Programación Orientada a Ojetos en Kotlin](./practica2/)
 -  [Práctica 3: Aplicaciones Básicas Android](./practica3/)
 -  [Práctica CdV: Ciclo de Vida de una Activity en Android](./practicaCicloVida/)
 -  [Práctica 4: Comunicación entre Actividades](./practica4/)
+-  [Práctica 5: Fragments y Navegación](./practica5/)
 
 *(Se irá actualizando conforme avance el curso)*
 
