@@ -14,7 +14,7 @@ const MyApp({super.key});
  Widget build(BuildContext context) {
 	return MaterialApp(
   	title: 'Mi App Personal',
-  	home: PantallaPerfil(), // Cambiar por PantallaPerfil() o PantallaHobbies() para probar
+  	home: PantallaHobbies(), // Cambiar por PantallaPerfil() o PantallaHobbies() para probar
 	);
   }
 }
