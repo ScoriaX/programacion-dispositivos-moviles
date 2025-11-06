@@ -1,3 +1,8 @@
+// Descripción: Main de la aplicación, donde por ahora solo elegimos que pantalla mostrar
+// Autor: Piero Poblete
+// Fecha creación: 6/11/2025
+// Última modificación: 6/11/2025
+
 import 'package:flutter/material.dart';
 import 'pantalla_inicio.dart';
 import 'pantalla_hobbies.dart';

@@ -1,3 +1,8 @@
+// Descripción: Pantalla de inicio, da la bienvenida al usuario
+// Autor: Piero Poblete
+// Fecha creación: 6/11/2025
+// Última modificación: 6/11/2025
+
 import 'package:flutter/material.dart';
 
 class PantallaInicio extends StatelessWidget {
@@ -18,24 +23,33 @@ class PantallaInicio extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(24.0),
           child: Column(
-            mainAxisSize: MainAxisSize.min, // centra el contenido sin tomar toda la pantalla
+            mainAxisSize: MainAxisSize.min,
             children: [
+              // Imagen
               const CircleAvatar(
                 radius: 60,
                 backgroundImage: AssetImage('assets/perfil.jpg'),
               ),
+
               const SizedBox(height: 20),
+
+              // Texto principal
               const Text(
                 'Hola! soy Piero Poblete',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
+
               const SizedBox(height: 8),
+
+              // Texto de bienvenida
               const Text(
                 'Bienvenido a mi aplicación personal. Aquí podrás ver mi perfil y conocer sobre mis hobbies.',
                 textAlign: TextAlign.center,
               ),
+
               const SizedBox(height: 24),
-              // Botón visual
+
+              // Botón ver perfil
               ElevatedButton(
                 onPressed: () {
                   // Vacio, sin logica

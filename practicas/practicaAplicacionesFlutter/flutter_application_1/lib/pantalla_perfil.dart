@@ -1,3 +1,8 @@
+// Descripción: Pantalla de perfil, muestra el perfil y la información de contacto
+// Autor: Piero Poblete
+// Fecha creación: 6/11/2025
+// Última modificación: 6/11/2025
+
 import 'package:flutter/material.dart';
 
 class PantallaPerfil extends StatelessWidget {
