@@ -1,4 +1,4 @@
-# Práctica 5: Fragments y Navegación
+# Práctica: Interfaces Estáticas Flutter.
 ## Descripción
 En esta práctica se realiza un configurador de pedido de comida, de manera sencilla utilizando Fragments y Navegación.
 
