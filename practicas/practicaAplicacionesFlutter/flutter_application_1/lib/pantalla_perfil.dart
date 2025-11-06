@@ -10,9 +10,10 @@ class PantallaPerfil extends StatelessWidget {
         title: const Text('Mi Perfil'),
         centerTitle: true,
         elevation: 2,
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
+        backgroundColor: Colors.orange,
+        foregroundColor: Colors.black,
       ),
+      backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
@@ -21,9 +22,9 @@ class PantallaPerfil extends StatelessWidget {
             // Imagen
             Center(
               child: CircleAvatar(
-                radius: 60,
+                radius: 100,
                 backgroundImage: NetworkImage(
-                  'https://i.pravatar.cc/300', // Imagen de internet
+                  'https://www.cooperatingvolunteers.com/wp-content/uploads/2024/12/moai-768x1024.jpeg',
                 ),
               ),
             ),
@@ -32,27 +33,53 @@ class PantallaPerfil extends StatelessWidget {
 
             // Nombre
             const Text(
-              'Piero Poblete',
-              style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+              'Piero Poblete Andía',
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
             ),
 
             const SizedBox(height: 10),
 
             // Descripción
-            const Text(
-              'Estudiante de Ingeniería de Software. Apasionado por Flutter y el análisis de datos.',
-              textAlign: TextAlign.center,
+            Center(
+              child: Container(
+                constraints: const BoxConstraints(maxWidth: 300),
+                child: const Text(
+                  'Soy estudiante de Ingeniería de Software en la Universidad La Salle Arequipa.\n'
+                  'Me apasionan el análisis de datos, los videojuegos y el senderismo.',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(fontSize: 16, color: Colors.black87, height: 1.4),
+                ),
+              ),
             ),
 
-            const SizedBox(height: 30),
+            const SizedBox(height: 100),
 
-            // Información de contacto
+            // Info de contacto
+            const Text(
+              'Información de contacto',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+
+            // Correo
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.email, color: Colors.blue),
+                Icon(Icons.email, color: Colors.black),
                 SizedBox(width: 10),
-                Text('piero@example.com'),
+                Text('ppobletea@ulasalle.edu.pe'),
+              ],
+            ),
+
+            // Telefono
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.phone, color: Colors.black),
+                SizedBox(width: 10),
+                Text('987654321'),
               ],
             ),
           ],

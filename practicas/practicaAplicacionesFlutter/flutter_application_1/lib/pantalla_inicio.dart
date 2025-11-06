@@ -13,7 +13,7 @@ class PantallaInicio extends StatelessWidget {
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.orange,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(24.0),
