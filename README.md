@@ -7,8 +7,6 @@ Aquí se encuentran las prácticas, ejercicios y proyectos desarrollados durante
 
 ## Estructura del repositorio
 - [practicas/](./practicas/) → Ejercicios y prácticas semanales.
-- `proyectos/` → Proyectos más completos o integradores.
-- `recursos/` → Material complementario (apuntes, ejemplos, documentación).
 
 ---
 
@@ -23,6 +21,7 @@ Aquí se encuentran las prácticas, ejercicios y proyectos desarrollados durante
 ## Requisitos
 - Kotlin
 - Android Studio
+- Flutter
 
 ---
 
