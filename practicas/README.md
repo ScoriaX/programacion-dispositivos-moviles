@@ -13,6 +13,7 @@ Este directorio contiene las prácticas desarrolladas durante el curso **Program
 -  [Práctica 4: Comunicación entre Actividades](./practica4/)
 -  [Práctica 5: Fragments y Navegación](./practica5/)
 -  [Práctica RVA: RecyclerView con Edición y Long Click](./practicaRecyclerViewApp/)
+-  [Práctica IEF: Interfaces Estáticas Flutter](./practicaAplicacionesFlutter/)
 
 *(Se irá actualizando conforme avance el curso)*
 
