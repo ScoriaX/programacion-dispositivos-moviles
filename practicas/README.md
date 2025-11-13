@@ -15,6 +15,7 @@ Este directorio contiene las prácticas desarrolladas durante el curso **Program
 -  [Práctica RVA: RecyclerView con Edición y Long Click](./practicaRecyclerViewApp/)
 -  [Práctica IEF: Interfaces Estáticas Flutter](./practicaAplicacionesFlutter/)
 -  [Práctica BNV: Bottom Navigation Bar](./practicaBottomNavigationBar/)
+-  [Práctica LCRUD: Listas Dinamicas Crud](./practicaListasDinamicasCrud/)
 
 *(Se irá actualizando conforme avance el curso)*
 
