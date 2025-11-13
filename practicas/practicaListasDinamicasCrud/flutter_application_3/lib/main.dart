@@ -1,3 +1,8 @@
+// Descripción: Main
+// Autor: Piero Poblete
+// Fecha creación: 13/11/2025
+// Última modificación: 13/11/2025
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'viewmodels/user_view_model.dart';

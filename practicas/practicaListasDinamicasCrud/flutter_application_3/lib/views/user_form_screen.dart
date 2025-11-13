@@ -1,3 +1,8 @@
+// Descripción: Formulario para crear usuario
+// Autor: Piero Poblete
+// Fecha creación: 13/11/2025
+// Última modificación: 13/11/2025
+
 import 'package:flutter/material.dart';
 import '../models/user.dart';
 
@@ -15,6 +20,7 @@ class _UserFormScreenState extends State<UserFormScreen> {
   final _formKey = GlobalKey<FormState>();
   late String _nombre;
   late int _edad;
+  late String _correo;
   String _genero = 'Masculino';
   bool _activo = true;
 
@@ -23,13 +29,20 @@ class _UserFormScreenState extends State<UserFormScreen> {
     super.initState();
     if (widget.usuario != null) {
       _nombre = widget.usuario!.nombre;
+      _edad = widget.usuario!.edad;
+      _correo = widget.usuario!.correo;
       _genero = widget.usuario!.genero;
       _activo = widget.usuario!.activo;
-      _edad = widget.usuario!.edad;
     } else {
       _nombre = '';
       _edad = 0;
+      _correo = '';
     }
+  }
+
+  bool _esCorreoValido(String correo) {
+    final regex = RegExp(r'^[^@]+@[^@]+\.[^@]+$');
+    return regex.hasMatch(correo);
   }
 
   @override
@@ -53,7 +66,7 @@ class _UserFormScreenState extends State<UserFormScreen> {
               ),
               const SizedBox(height: 20),
               TextFormField(
-                initialValue: widget.usuario?.edad.toString() ?? '',
+                initialValue: _edad == 0 ? '' : _edad.toString(),
                 decoration: const InputDecoration(labelText: 'Edad'),
                 keyboardType: TextInputType.number,
                 validator: (value) {
@@ -63,6 +76,18 @@ class _UserFormScreenState extends State<UserFormScreen> {
                   return null;
                 },
                 onSaved: (value) => _edad = int.parse(value!),
+              ),
+              const SizedBox(height: 20),
+              TextFormField(
+                initialValue: _correo,
+                decoration: const InputDecoration(labelText: 'Correo electrónico'),
+                keyboardType: TextInputType.emailAddress,
+                validator: (value) {
+                  if (value == null || value.isEmpty) return 'Ingrese un correo';
+                  if (!_esCorreoValido(value)) return 'Formato de correo inválido';
+                  return null;
+                },
+                onSaved: (value) => _correo = value!,
               ),
               const SizedBox(height: 20),
               const Text('Género'),
@@ -101,6 +126,7 @@ class _UserFormScreenState extends State<UserFormScreen> {
                       genero: _genero,
                       activo: _activo,
                       edad: _edad,
+                      correo: _correo,
                     );
                     Navigator.pop(context, user);
                   }
