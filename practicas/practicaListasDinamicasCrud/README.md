@@ -1,6 +1,6 @@
-# Práctica BNB: Navegación Inferior (BottomNavigationBar) 
+# Práctica LCRUD: Listas Dinámicas y CRUD Local con Provider en Flutter
 ## Descripción
-En esta práctica se implementará un sistema de navegación por pestañas usando BottomNavigationBar en Flutter, comprendiendo la relación entre pantallas, navegación y estado.
+En esta práctica se implementará una aplicación Flutter que permita agregar, editar y eliminar usuarios utilizando el patrón MVVM con Provider, reforzando el manejo del estado, la UI dinámica y el trabajo con formularios.
 ---
 
 ## Cómo ejecutar
@@ -8,21 +8,20 @@ En esta práctica se implementará un sistema de navegación por pestañas usand
 2. Ejecutar el archivo **main.dart** con el botón **Run**
 
 ## Preguntas de reflexión
-1. ¿Por qué se recomienda usar un StatefulWidget para manejar el índice de la pestaña seleccionada?
-- Ya que nos ayuda a controlar el índice de la pestaña seleccionada y mostrar el contenido correspondiente, permitiendo la navegación fluida entre vistas sin recargar la aplicación.
 
-2. ¿Qué ventajas ofrece separar cada pestaña en su propio widget o pantalla?
-- Reutilización, rendimiento y escalabilidad.
-- Cada pestaña seá la encargada de llevar su propia complejidad.
+1. ¿Qué ventajas ofrece usar Provider frente a setState()?
 
-3. ¿Cómo cambia la navegación entre pantallas al usar rutas nombradas en lugar de Navigator.push()?
-- Se vuelve más sencilla, y permite mayor organización.
+- Provider permite una **mejor separación entre la lógica de negocio y la interfaz**, facilitando la reutilización del código.
+- Optimiza el rendimiento, ya que **solo los widgets que dependen del estado se reconstruyen**, evitando redibujar toda la pantalla.
+- Facilita el manejo de estados globales compartidos entre múltiples pantallas.
 
-4. ¿De qué forma el uso de Navigator.pop(context, data) facilita la comunicación entre pantallas?
-- Facilita la comunicación ya que permite enviar datos de regreso, útil para editar información, seleccionar elementos o confirmar acciones.
+2. ¿Por qué es importante usar ChangeNotifier en el ViewModel?
 
-5. ¿Qué posibles mejoras o extensiones podrías agregar a esta aplicación para hacerla más completa?
-- Validación en el campo "nombre".
-- Que el nombre del usuario sea persistente.
-- Implementar rutas nombradas.
+- Porque **ChangeNotifier** permite que el ViewModel **notifique automáticamente a los widgets** cuando hay cambios en los datos.
+- Esto mantiene la interfaz sincronizada con el estado sin tener que actualizar manualmente cada widget.
+- Además, facilita el uso de `Provider` para escuchar cambios de manera reactiva.
 
+3. ¿Qué sucedería si no se llamara a notifyListeners() después de editar un usuario?
+
+- Los cambios realizados en los datos **no se reflejarían en la interfaz**, ya que los widgets no serían notificados.
+- En otras palabras, el estado interno del ViewModel se actualizaría, pero la vista seguiría mostrando información antigua.
