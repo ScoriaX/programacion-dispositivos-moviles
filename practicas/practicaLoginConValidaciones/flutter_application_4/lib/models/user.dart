@@ -1,7 +1,7 @@
 // Descripción: Estructura de 'User'
 // Autor: Piero Poblete
-// Fecha creación: 13/11/2025
-// Última modificación: 13/11/2025
+// Fecha creación: 19/11/2025
+// Última modificación: 19/11/2025
 
 class User {
   String nombre;

@@ -1,5 +1,10 @@
+// Descripción: Muestra el login
+// Autor: Piero Poblete
+// Fecha creación: 19/11/2025
+// Última modificación: 19/11/2025
+
 import 'package:flutter/material.dart';
-import 'user_list_screen.dart'; // Importar lista de actividad anterior
+import 'user_list_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -19,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text('Login')),
       body: Padding(
-        padding: const EdgeInsets.all(24.0), // PADDING UNIFORME
+        padding: const EdgeInsets.all(24.0),
         child: Form(
           key: _formKey,
           child: Column(
@@ -72,7 +77,6 @@ class _LoginScreenState extends State<LoginScreen> {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () {
-                    // Aquí podrías enviar a otra vista en el futuro
                   },
                   child: const Text(
                     "¿Olvidaste tu contraseña?",
@@ -105,7 +109,6 @@ class _LoginScreenState extends State<LoginScreen> {
               // BOTÓN "CREAR CUENTA"
               OutlinedButton(
                 onPressed: () {
-                  // Enviar a una pantalla de registro si la creas
                 },
                 child: const Text("Crear cuenta"),
               ),

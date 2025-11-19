@@ -1,7 +1,7 @@
 // Descripción: Muestra la lista
 // Autor: Piero Poblete
-// Fecha creación: 13/11/2025
-// Última modificación: 13/11/2025
+// Fecha creación: 19/11/2025
+// Última modificación: 19/11/2025
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -10,9 +10,9 @@ import '../models/user.dart';
 import 'user_form_screen.dart';
 
 class UserListScreen extends StatefulWidget {
-  final String email; // <-- agregado
+  final String email; 
 
-  const UserListScreen({super.key, required this.email}); // <-- agregado
+  const UserListScreen({super.key, required this.email});
 
   @override
   State<UserListScreen> createState() => _UserListScreenState();
